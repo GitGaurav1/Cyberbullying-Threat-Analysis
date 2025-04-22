@@ -55,7 +55,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg', 'gif'}
 app.config['REPORTS_FOLDER'] = 'static/reports'
-app.config['EMAIL_USERNAME'] = 'smaran.sls@gmail.com'
+
 app.config['EMAIL_PASSWORD'] = 'wabpkqmipcsepvuo'
 db = SQLAlchemy(app)
 
