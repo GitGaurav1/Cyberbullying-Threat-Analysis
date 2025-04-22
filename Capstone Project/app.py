@@ -31,7 +31,7 @@ from io import BytesIO
 # SMTP setup
 with smtplib.SMTP('smtp.gmail.com', 587) as server:
     server.starttls()
-    server.login('smaran.sls@gmail.com', 'wabpkqmipcsepvuo')
+    
     print("SMTP login successful")
 
 # OCR setup
